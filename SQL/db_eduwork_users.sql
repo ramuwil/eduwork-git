@@ -53,3 +53,9 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-02-23 11:30:16
+/*TUGAS ALIAS*/
+select nama as nama_lengkap from users;
+select phone as no_telepone from users;
+select addres as alamat from user;
+select nama as nama_lengkap, phone as no_telepone, addres as alamat from users;
+select nama, concat (phone,',',addres) as kontak from users;
